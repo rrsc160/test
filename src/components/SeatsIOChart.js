@@ -126,7 +126,7 @@ const SeatsIOChart = () => {
 
   useEffect(() => {
     if (alertMessage) {
-      const timer = setTimeout(() => setAlertMessage(null), 3000)
+      const timer = setTimeout(() => setAlertMessage(null), 2000)
       return () => clearTimeout(timer)
     }
   }, [alertMessage])

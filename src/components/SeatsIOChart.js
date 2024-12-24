@@ -70,6 +70,7 @@ const SeatsIOChart = () => {
           publicKey: SEATS_CONFIG.Publicworkspacekey,
           event: SEATS_CONFIG.eventkey,
           holdToken,
+          colorScheme: "dark",
           divId: "chart-container",
           session: "manual",
           onObjectSelected: (object) => {
